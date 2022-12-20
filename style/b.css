@@ -1,0 +1,29 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');*/
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #e54444a0;
+    --black: #343333;
+    --width-break:600px
+}
+
+body {
+    margin: 0;
+    font-family: 'Brush Script MT', cursive;
+    color: #333333;
+}
+
+nav {
+    background-color: var(--primary);
+    text-align: center;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
